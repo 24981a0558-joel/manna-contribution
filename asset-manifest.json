@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/manna-contribution-app/static/css/main.f424804c.css",
+    "main.js": "/manna-contribution-app/static/js/main.779d434f.js",
+    "index.html": "/manna-contribution-app/index.html",
+    "main.f424804c.css.map": "/manna-contribution-app/static/css/main.f424804c.css.map",
+    "main.779d434f.js.map": "/manna-contribution-app/static/js/main.779d434f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f424804c.css",
+    "static/js/main.779d434f.js"
+  ]
+}
