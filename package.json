@@ -2,6 +2,7 @@
   "name": "manna-church-app",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://24981a0558-joel.github.io/manna-contribution-app",
   "description": "Manna Church Contribution Management System",
   "dependencies": {
     "firebase": "^10.7.0",
@@ -13,6 +14,8 @@
     "xlsx": "^0.18.5"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -35,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
